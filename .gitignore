@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# Compiled output
+/dist/
+/out/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# IDE or editor specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
