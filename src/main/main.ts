@@ -1,10 +1,10 @@
 import {app, BrowserWindow, ipcMain, session, desktopCapturer} from 'electron';
 import {join} from 'path';
 
-
+// import { startServer } from '../../server/server'
 
 let mainWindow = null;  
-
+// startServer();
 function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 800,
