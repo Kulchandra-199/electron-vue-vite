@@ -11,7 +11,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const electron_1 = require("electron");
 const path_1 = require("path");
+// import { startServer } from '../../server/server'
 let mainWindow = null;
+// startServer();
 function createWindow() {
     const mainWindow = new electron_1.BrowserWindow({
         width: 800,
